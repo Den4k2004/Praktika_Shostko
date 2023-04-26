@@ -1,0 +1,258 @@
+.body{
+    background-color: #F5F5F5;
+}
+.nav-top li a {
+    display: inline-block;
+    color: #000;
+   
+    text-decoration: none;
+    padding: 10px;
+    transition: all .07s ease-in-out;
+}
+.nav-top li{
+list-style-type:none;
+}
+.nav-top li a{
+    display: inline-block;
+    color: #000;
+   
+    text-decoration: none;
+    padding: 10px;
+    transition: all .07s ease-in-out;
+}
+.nav-top .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    color:#F05454;
+}
+.nav-bottom ul li a{
+    color:#000;
+    font-weight: bold;
+}
+.nav-bottom ul li a.nav-link.active{
+    color:#F05454;
+    font-weight: bold;
+}
+
+
+.li .nav-item .a{
+    display: inline-block;
+    color: #000;
+   
+    text-decoration: none;
+    padding: 10px;
+    transition: all .07s ease-in-out;
+}
+.container-fluid{
+    display: flex;
+    align-items: center;
+}
+.nav-btn{
+    background-color:#F05454;
+    color: #fff;
+    margin: 15px;
+    width: 355px;
+}
+
+.info .img{
+    width: 100px;
+}
+.selection {
+    /* background-color: #fff url(/image/bluecar.png); */
+    background: url(/image/bluecar.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 300px;
+    
+}
+.ar_select{
+    margin: 15px;
+    width: 355px;
+}
+
+
+.question ul.hr li{
+    display: inline-block; /* Строчно-блочный элемент */
+}
+.question ul.hr{
+   
+    margin: 0;
+}
+.question .form-select{
+    width: 10px;
+}
+.q-btn{
+    background-color:#F05454;
+    color: #fff;
+    margin: 15px;
+    width: 250px;
+    height: 60px;
+}
+.question .select{
+    width: 10px;
+}
+.question .container{
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 0px 10px;
+    
+}
+.question ul{
+    justify-items: center;
+}
+
+.categories{
+    margin-top: 50px;
+}
+.ar_img_media .row{
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    margin: 30px 5px;
+    border-radius: 5px;
+  
+
+}
+.ar_img_media .row:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transform: scale(1.04); 
+    
+}
+
+.ar_img {
+    
+    
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+.ar_img:hover{
+    transform: scale(1.04);   
+}
+
+.ar_img h5 {
+    font-size: 15px;
+    text-align:center;
+}
+
+.topical{
+    background: url(/image/bg2.png);
+    /* background-repeat: no-repeat; */
+    background-position:  center center;
+    height: 600px;;
+}
+
+.t-btn{
+    
+    color: #fff;
+    margin: 15px;
+    width: auto;
+    height: auto;
+    
+}
+.t-btn-active{
+    background-color:#F05454;
+    color: #fff;
+    margin: 15px;
+    width: auto;
+    height: auto;
+   
+}
+.t-btn:hover{
+    border-color: #F05454;
+    color:#fff;
+    transform: scale(1.04);  
+}
+.t-btn-active:hover{
+    border-color: #F05454;
+    color:#fff; 
+    transform: scale(1.04);  
+}
+
+
+
+.item .ar_image{
+height: 100px;
+}
+
+.item .col{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.item ul li{
+    display: inline-block; /* Строчно-блочный элемент */
+    
+}
+.item .text-red{
+    margin-left:10px ;
+    color:#F05454;
+    font-weight: bold;
+}
+
+
+footer{
+    height: 300px;
+    padding-top: 100px;
+}
+footer .col ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 20px;
+}
+footer .logo{
+    padding-right: 20px;
+}
+footer .row{
+    border-bottom: 1px #000;
+}
+.line {
+    border: none; /* Убираем границу */
+    background-color: #000; /* Цвет линии */
+    color: #000; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    opacity: 0.1;
+}
+
+.footer-btn{
+    color: #F05454;
+    margin: 15px;
+    width: auto;
+    height: auto;
+    
+      
+}
+
+.footer-btn:hover{
+    border-color: #F05454;
+    color:#F05454;
+    transform: scale(1.04);  
+   
+}
+.footer-btn-active{
+    background-color:#fff;
+    color: #F05454;
+    margin: 15px;
+    width: auto;
+    height: auto;
+    border-color: #F05454;
+   
+}
+.footer-btn-active:hover{
+    border-color: #F05454;
+    color:#F05454; 
+    transform: scale(1.04);  
+    
+}
+.text-f{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer-bootom{
+    display: flex;
+    justify-content: center;
+}
